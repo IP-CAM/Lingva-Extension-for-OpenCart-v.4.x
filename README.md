@@ -1,2 +1,4 @@
 # opencart-lingva-translate
-Google Translate alternative for OpenCart DB
+
+Lingva is the open source alternative gateway for the Google Translate API.
+
