@@ -166,8 +166,8 @@ class Lingva extends \Opencart\System\Engine\Controller {
 
           $this->model_extension_lingva_module_lingva->updateProductDescription($product['product_id'],
                                                                                 $this->config->get('module_lingva_to_language_id'),
-                                                                                str_replace('|', '/', $name),
-                                                                                str_replace('|', '/', $description));
+                                                                                $name,
+                                                                                $description);
 
           if ($this->model_extension_lingva_module_lingva->translateProduct($product['product_id'])) {
 
